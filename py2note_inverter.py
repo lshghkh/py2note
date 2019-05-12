@@ -2,7 +2,7 @@ import os
 import sys
 from IPython.nbformat import v3, v4
 
-DIR = "."
+DIR = "/home"
 
 for dirName, subdirList, fileList in os.walk(DIR):
     if dirName.startswith(DIR + "/student") or dirName.startswith(DIR + "/educator"):
